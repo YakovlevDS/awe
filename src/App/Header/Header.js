@@ -13,9 +13,7 @@ const Header = ({handleShowModalBin}) => {
 	<header id="sec1" className="container header px-4 px-md-0">
 		<div className="row justify-content-between align-items-center">
 			<div className="col-lg-2 col-6">
-				<a href="index.html" className="logo-link">
 				<Logo/>
-				</a>
 			</div>
 			<div className="col-lg-6 d-none d-lg-block">
 				<nav>

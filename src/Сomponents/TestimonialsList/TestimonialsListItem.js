@@ -38,7 +38,7 @@ class TestimonialsListItem extends Component {
          
     } = this.props;
 // console.log(author)
-  console.log(this.props)
+//   console.log(this.props)
             
         return (
             <div className="wrap_comment_list">

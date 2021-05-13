@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^12.8.3",
     "@types/react-redux": "^7.1.16",
     "@varld/popover": "^0.1.0",
-    "firebase": "^8.4.3",
+    "firebase": "^8.6.1",
     "react": "^17.0.2",
     "react-anime": "^4.0.4",
     "react-awesome-slider": "^4.1.0",

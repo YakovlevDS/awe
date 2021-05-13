@@ -39,7 +39,7 @@ class ProductPage extends Component {
         productRemoveLike,
       } = this.props
     
-      console.log(this.state.data)
+      // console.log(this.state.data)
     const index = match.params.id-1
 
     if (this.state.data === null || this.state.data.length === 0) {
@@ -77,9 +77,9 @@ class ProductPage extends Component {
                   <button className="btn_like" onClick={() => isLiked ? productRemoveLike(index+1) : productAddLike(index+1)}>
                     {isLiked
                       ?
-                      <img src={heart_like} />
+                      <img src={heart_like} alt='like' />
                       :
-                      <img src={heart_dis} />}
+                      <img src={heart_dis} alt='dislike'/>}
                   </button>
                 </div>
               </div>

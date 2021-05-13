@@ -18,7 +18,7 @@ const ProductsList = ({sort,productLikeState, data}) => {
                  sort !== "all" ?
                    
                    
-             data.filter((item) =>(keys(productLikeState).find(i => { return i == item.id })|| item.gender === sort || item.category === sort || item.label === sort)).map(({
+             data.filter((item) =>(keys(productLikeState).find(i => { return i === item.id })|| item.gender === sort || item.category === sort || item.label === sort)).map(({
            label,
            img,
            name,

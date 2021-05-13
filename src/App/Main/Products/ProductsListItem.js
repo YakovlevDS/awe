@@ -38,8 +38,8 @@ const ProductListItem = ({
 		</Link>
 }
 
-			<h3 className="goods-title">{name}</h3>
-			<p className="goods-description">{description}</p>
+			<h3 className="goods-title">{name.slice(0,19)}</h3>
+			<p className="goods-description">{description.slice(0,19)}</p>
 		
 	
 	
@@ -49,9 +49,9 @@ const ProductListItem = ({
                   </div>
 					<div className={s.artc_dowland_ico}>
 						<button className={s.btn_like} onClick={() => isLiked ? productRemoveLike(id) : productAddLike(id)}>
-                      {isLiked ? (<img src={heart_like}></img>
+                      {isLiked ? (<img src={heart_like} alt='like'></img>
                       ) : (
-                        <img src={heart_dis}></img>
+                        <img src={heart_dis} alt='dislike'></img>
                       )}
       </button>
 			</div>

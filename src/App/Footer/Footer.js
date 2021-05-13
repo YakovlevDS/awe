@@ -20,12 +20,12 @@ const Footer = () => {
 				<div className="col-xl-7 mb-4 mb-xl-0">
 					<nav>
 						<ul className="footer-menu d-sm-flex">
-							<li className="footer-menu-item"><Link to="#" className="footer-menu-link">Shop</Link></li>
-							<li className="footer-menu-item"><Link to="#" className="footer-menu-link">About Us</Link></li>
-							<li className="footer-menu-item"><Link to="#" className="footer-menu-link">Careers</Link></li>
-							<li className="footer-menu-item"><Link to="#" className="footer-menu-link">FAQ </Link></li>
-							<li className="footer-menu-item"><Link to="#" className="footer-menu-link">Blog</Link></li>
-							<li className="footer-menu-item"><Link to="#" className="footer-menu-link">Contacts</Link></li>
+							<li className="footer-menu-item"><Link to="/" className="footer-menu-link">Shop</Link></li>
+							<li className="footer-menu-item"><Link to="/" className="footer-menu-link">About Us</Link></li>
+							<li className="footer-menu-item"><Link to="/" className="footer-menu-link">Careers</Link></li>
+							<li className="footer-menu-item"><Link to="/" className="footer-menu-link">FAQ </Link></li>
+							<li className="footer-menu-item"><Link to="/" className="footer-menu-link">Blog</Link></li>
+							<li className="footer-menu-item"><Link to="/" className="footer-menu-link">Contacts</Link></li>
 						</ul>
 					</nav>
 				</div>
@@ -33,15 +33,15 @@ const Footer = () => {
 				<div className="col-lg-3 d-flex align-items-center">
 					<span className="footer-text">Follow Us</span>
 					<span className="footer-social d-inline-flex align-items-center">
-            <Link to="#" className="social-link">
+            <a href="https://www.facebook.com/" className="social-link">
               <img src={facebook} alt="Facebook"/>
-            </Link>
-            <Link to="#" className="social-link">
+            </a>
+            <a href="https://twitter.com/" className="social-link">
               <img src={twitter} alt="Twitter"/>
-            </Link>
-            <Link to="#" className="social-link">
+            </a>
+            <a href="https://www.instagram.com" className="social-link">
               <img src={instagram} alt="Instagram"/>
-            </Link>
+            </a>
           </span>
 				</div>
 			

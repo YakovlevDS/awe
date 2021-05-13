@@ -31,7 +31,7 @@ const Menu = ({productLikeState}) => {
 			</li>
 			{keys(productLikeState).length !== 0 ?
 						<li className="navigation-item">
-							<Link to="/productsFavorites" className="navigation-link "><img src={heart_like} width="13"/></Link>
+							<Link to="/productsFavorites" className="navigation-link "><img src={heart_like} alt='like' width="13"/></Link>
 				</li>
 				: <li className="navigation-item">
 							<Link to="/productsFavorites" className="navigation-link "></Link>
